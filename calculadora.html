@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css" type="text/css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="boton recuadro" id="recuadroCient"><button id="btnCientifica" value="">Cient</button></div>
+    
+    <div class="contenedor">  
+        
+        <div class="cientifica" id="cientifica" >
+            <div class="boton">
+                <div class="recuadro"><button id="btnElevado2" value="x^2">x^2</button></div>
+                <div class="recuadro"><button id="btnE" value="e">e</button></div>
+                <div class="recuadro"><button id="btnElevadoY" value="x^y">x^y</button></div>
+            </div>
+            <div class="boton">
+                <div class="recuadro"><button id="btn10ElevX" value="10^x">10^x</button></div>
+                <div class="recuadro"><button id="btnSin" value="sin">sin</button></div>
+                <div class="recuadro"><button id="btnSinH" value="sinh">sinh</button></div>
+            </div>
+            <div class="boton">
+                <div class="recuadro"><button id="btnyVx" value="yVx">y√x</button></div>
+                <div class="recuadro"><button id="btnLog" value="log">log</button></div>
+                <div class="recuadro"><button id="btnLog10" value="log10">log10</button></div>
+            </div>
+            <div class="boton">
+                <div class="recuadro"><button id="btnTan" value="tan">tan</button></div>
+                <div class="recuadro"><button id="btnTanH" value="tanh">tanh</button></div>
+                <div class="recuadro"><button id="btnRaizCuadrada" value="2√x">2√x</button></div>
+            </div>
+            <div class="boton">
+                <div class="recuadro"><button id="btnCos" value="cos">cos</button></div>
+                <div class="recuadro"><button id="btnCosH" value="cosh">cosh</button></div>
+                <div class="recuadro"><button id="btnPi" value="Pi">Pi</button></div>
+            </div>
+        </div>
+        <div class="calculadora">
+            <div id="display"><input name="resultado" id="resultado" max="10" value="0" disabled></div>
+            <div class="boton" id="primera-fila">
+                <div class="recuadro"><button id="btnReset" value="C">AC</button></div>
+                <div class="recuadro"><button id="btnCambioSigno" value="+/-">+/-</button></div>
+                <div class="recuadro"><button id="btnPorciento" value="%">%</button></div>
+                <div class="recuadro"><button id="btnDiv" value="/" class="operacion">/</button></div>
+            </div>
+            <div class="boton" id="segunda-fila">
+                <div class="recuadro"><button id="btnSiete" value="7">7</button></div>
+                <div class="recuadro"><button id="btnOcho" value="8">8</button></div>
+                <div class="recuadro"><button id="btnNueve" value="9">9</button></div>
+                <div class="recuadro"><button id="btnMulti" value="*" class="operacion">x</button></div>
+            </div>
+            <div class="boton" id="tercera-fila">
+                <div class="recuadro"><button id="btnCuatro" value="4">4</button></div>
+                <div class="recuadro"><button id="btnCinco" value="5">5</button></div>
+                <div class="recuadro"><button id="btnSeis" value="6">6</button></div>
+                <div class="recuadro"><button id="btnResta" value="-" class="operacion">-</button></div>
+            </div>
+            <div class="boton" id="cuarta-fila">
+                <div class="recuadro"><button id="btnUno" value="1">1</button></div>
+                <div class="recuadro"><button id="btnDos" value="2">2</button></div>
+                <div class="recuadro"><button id="btnTres" value="3">3</button></div>
+                <div class="recuadro"><button id="btnSuma" value="+" class="operacion">+</button></div>
+            </div>
+            <div class="boton" id="quinta-fila">
+                <div class="recuadro"><button id="btnCero" value="0">0</button></div>
+                <div class="recuadro"><button id="btnComa" value=".">,</button></div>
+                <div class="recuadro"><button id="btnIgual" value="=" class="operacion">=</button></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/calculadora.js"></script>
+</body>
+</html>
