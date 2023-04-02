@@ -1,0 +1,82 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+@font-face{
+    font-family: apple;
+    src: url(../fonts/SF-UI-Display-Regular.otf);
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: auto;
+}
+
+#display{
+    /* margin-top: 150px; */
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+#display input{
+    border-radius: 15px;
+    width: 224px;
+    height: 73px;
+    text-align: right;
+    color: white;
+    background-color: #4c4c4c;
+    font-size: 2.65em;
+    font-weight: lighter;
+}
+.boton{
+    margin: 10px;
+    display: flex;
+    flex-direction: row; 
+}
+.boton button{
+    width: 56px;
+    height: 49px; 
+    font-size: 1.2em;
+    border: none;
+    border-radius: 15px;
+}
+.boton button:active{
+    background-color: rgb(175, 174, 174);
+}
+.boton button:hover{
+    background-color: rgb(121, 121, 121);
+}
+.boton button:focus{
+    outline: none;
+}
+
+.operacion{
+    background-color: #f7a13e;
+    color: white;
+    border-radius: 15px;
+}
+
+#btnCero{
+    width: 114px;
+    border-radius: 15px;
+}
+
+.cientifica{
+    margin-top: 80px;
+    /* border: black solid 1px; */
+    display: flex;
+    flex-direction: column;
+}
+#recuadroCient{
+    border: none;
+}
+#btnCientifica{
+    font-size: 15px;
+    margin: 10px;
+    border: none;
+}
